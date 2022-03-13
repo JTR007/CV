@@ -186,7 +186,7 @@ body {
     }
   
     .main__section .skills__paragraph {
-      text-align: none;
+      text-align: start;
     }
 }
 /*# sourceMappingURL=style.css.map */
