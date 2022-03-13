@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+body {
+  background-image: url(../img/fondo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin: 50px 100px;
+}
+
+.aside {
+  background-color: rgba(37, 36, 36, 0.5);
+  height: 100%;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  color: white;
+}
+
+.container__aside--1 {
+  background-color: rgba(141, 29, 29, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.container__img {
+  padding: 15px;
+  text-align: center;
+}
+.container__img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 10px;
+  border: 5px solid white;
+}
+
+.container__info {
+  text-align: center;
+}
+.container__info h2 {
+  margin-bottom: 20px;
+}
+.container__info p {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-bottom: 5px solid white;
+  padding-bottom: 20px;
+}
+
+.container__info--icons {
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 0px;
+  border-bottom: 5px solid white;
+  padding-bottom: 20px;
+}
+.container__info--icons a:nth-of-type(1) {
+  background-color: #006eff;
+  border-radius: 50%;
+  padding: 10px;
+}
+.container__info--icons a:nth-of-type(2) {
+  background-color: #07c220;
+  border-radius: 50%;
+  padding: 10px;
+}
+.container__info--icons a:nth-of-type(3) {
+  background-color: #0026ff;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.container__aside--2 {
+  padding: 20px;
+}
+
+.skills__title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.skills__title .skills__title--img {
+  background-color: rgba(141, 29, 29, 0.5);
+  padding: 10px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.skills__title .skills__title--word {
+  margin-left: 20px;
+}
+
+.skills__content {
+  padding-left: 25px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.skills__content .skills__content--left {
+  width: 200px;
+  padding-right: 12px;
+}
+.skills__content .skills__content--list {
+  list-style: none;
+}
+.skills__content .intereses li {
+  margin-bottom: 10px;
+}
+.skills__content .skills__content--right {
+  width: 100%;
+  height: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+.skills__content .skills__content--right .barra--progreso {
+  background-color: greenyellow;
+  height: inherit;
+  border-radius: 5px 0 0 5px;
+}
+.skills__content .skills__content--right .barra--progreso.excel, .skills__content .skills__content--right .barra--progreso.word, .skills__content .skills__content--right .barra--progreso.powerpoint, .skills__content .skills__content--right .barra--progreso.html, .skills__content .skills__content--right .barra--progreso.css, .skills__content .skills__content--right .barra--progreso.javascript, .skills__content .skills__content--right .barra--progreso.sql {
+  width: 60%;
+}
+.skills__content .skills__content--right .barra--progreso.php, .skills__content .skills__content--right .barra--progreso.sass, .skills__content .skills__content--right .barra--progreso.mysql, .skills__content .skills__content--right .barra--progreso.photoshop, .skills__content .skills__content--right .barra--progreso.adobeillustrator, .skills__content .skills__content--right .barra--progreso.ingles {
+  width: 30%;
+}
+.skills__content .skills__content--right .niveles {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.main {
+  margin-left: 20px;
+}
+
+.main__section {
+  padding: 20px;
+  background-color: rgba(37, 36, 36, 0.5);
+  color: white;
+  margin-bottom: 40px;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+}
+.main__section.main__section--3 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.main__section .skills__paragraph {
+  padding: 20px 30px 10px 30px;
+  text-align: justify;
+  border-top: 5px solid white;
+}
+.main__section .skills__paragraph--list {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.main__section .skills__paragraph--list.adorno {
+  padding-left: 10px;
+  border-left: 5px solid rgba(141, 29, 29, 0.5);
+}
+.main__section .skills__paragraph--list.paragraph {
+  margin-bottom: 30px;
+  margin-left: 15px;
+}/*# sourceMappingURL=style.css.map */
