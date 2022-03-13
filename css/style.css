@@ -168,4 +168,20 @@ body {
 .main__section .skills__paragraph--list.paragraph {
   margin-bottom: 30px;
   margin-left: 15px;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    margin: 0;
+    grid-template-columns: 1fr;
+  }
+
+  .main {
+    margin-left: 0;
+  }
+
+  .main__section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
