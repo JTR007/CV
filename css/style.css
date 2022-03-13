@@ -184,5 +184,9 @@ body {
         margin-top: 20px;
         margin-bottom: 20px;
     }
+  
+    .main__section .skills__paragraph {
+      text-align: none;
+    }
 }
 /*# sourceMappingURL=style.css.map */
