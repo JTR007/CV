@@ -124,7 +124,7 @@ body {
   border-radius: 5px 0 0 5px;
 }
 .skills__content .skills__content--right .barra--progreso.excel, .skills__content .skills__content--right .barra--progreso.word, .skills__content .skills__content--right .barra--progreso.powerpoint, .skills__content .skills__content--right .barra--progreso.html, .skills__content .skills__content--right .barra--progreso.css, .skills__content .skills__content--right .barra--progreso.javascript, .skills__content .skills__content--right .barra--progreso.sql {
-  width: 60%;
+  width: 63%;
 }
 .skills__content .skills__content--right .barra--progreso.php, .skills__content .skills__content--right .barra--progreso.sass, .skills__content .skills__content--right .barra--progreso.mysql, .skills__content .skills__content--right .barra--progreso.photoshop, .skills__content .skills__content--right .barra--progreso.adobeillustrator, .skills__content .skills__content--right .barra--progreso.ingles {
   width: 30%;
